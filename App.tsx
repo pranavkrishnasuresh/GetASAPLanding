@@ -158,7 +158,7 @@ const App: React.FC = () => {
             <div className="max-w-4xl mx-auto space-y-12">
               <h2 className="text-6xl lg:text-7xl font-bold tracking-tight text-[#14343b] leading-[1.0] font-display">Modernize your fresh supply chain.</h2>
               <p className="text-xl lg:text-2xl text-gray-500 leading-relaxed max-w-2xl mx-auto font-normal">
-                Join the retailers achieving 8-hour farm-to-shelf velocity.
+                Join the retailers achieving 8-hour farm-to-shelf fulfillment.
               </p>
               <div className="pt-8">
                 <a 
@@ -185,7 +185,7 @@ const App: React.FC = () => {
             <div className="flex gap-12">
               <a className="text-[11px] font-semibold text-gray-400 hover:text-brand-orange transition-colors uppercase tracking-widest cursor-pointer font-jetbrains" href="#">Privacy</a>
               <a className="text-[11px] font-semibold text-gray-400 hover:text-brand-orange transition-colors uppercase tracking-widest cursor-pointer font-jetbrains" href="#">Terms</a>
-              <a className="text-[11px] font-semibold text-gray-400 hover:text-brand-orange transition-colors uppercase tracking-widest cursor-pointer font-jetbrains" href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact</a>
+              <a className="text-[11px] font-semibold text-gray-400 hover:text-brand-orange transition-colors uppercase tracking-widest cursor-pointer font-jetbrains" href="mailto:krishna@getasap.asia">Contact</a>
             </div>
             <p className="text-[11px] font-semibold text-gray-400 tracking-widest uppercase font-jetbrains">© 2026 Blaze Market Incorporated.</p>
           </div>
