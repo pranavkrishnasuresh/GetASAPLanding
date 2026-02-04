@@ -24,7 +24,7 @@ const App: React.FC = () => {
       <header className="w-full border-b border-gray-100 py-4 sticky top-0 bg-[#fcfcf9]/80 backdrop-blur-md z-50">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={(e) => scrollToSection(e as any, 'hero')}>
-            <img src="/logo.png" alt="GETASAP Logo" className="w-7 h-7 object-contain" />
+            <img src="/logo.png" alt="GETASAP Logo" className="w-7 h-7 object-contain rounded-full" />
             <span className="text-lg font-bold tracking-tighter uppercase font-display text-[#14343b]">GETASAP</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
@@ -179,7 +179,7 @@ const App: React.FC = () => {
         <div className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-10">
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="GETASAP Logo" className="w-8 h-8 object-contain" />
+              <img src="/logo.png" alt="GETASAP Logo" className="w-8 h-8 object-contain rounded-full" />
               <span className="text-xl font-bold tracking-tighter uppercase font-display text-[#14343b]">GETASAP</span>
             </div>
             <div className="flex gap-12">
