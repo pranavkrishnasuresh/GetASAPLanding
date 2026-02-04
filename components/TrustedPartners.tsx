@@ -17,7 +17,7 @@ const TrustedPartners: React.FC = () => {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#5f7f73]"></span>
             </span>
             <span className="text-[10px] font-bold text-[#5f7f73] font-jetbrains uppercase tracking-widest">
-              Live Partners
+              Our Partners
             </span>
           </div>
         </div>

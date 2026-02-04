@@ -81,7 +81,7 @@ const App: React.FC = () => {
                 </h1>
                 <div className="space-y-6">
                   <p className="text-lg lg:text-xl text-gray-500 max-w-lg leading-relaxed font-normal">
-                    We replace legacy wholesalers with AI demand intelligence and a decentralized cold-chain network—delivering farm-fresh produce in under 8 hours.
+                  We replace legacy wholesalers with end-to-end demand forecasting and micro-hub infrastructure, enabling sub 8-hour delivery of farm-fresh produce.
                   </p>
                   <div className="flex flex-col items-start gap-4">
                     <a 
@@ -140,8 +140,8 @@ const App: React.FC = () => {
                     <p className="text-[10px] font-medium text-gray-400 uppercase tracking-[0.3em] font-jetbrains">Distribution footprint</p>
                   </div>
                   <div className="space-y-4">
-                    <p className="text-5xl font-bold font-display tracking-tight text-[#e8e8e2]">8 hrs farm-to-shelf</p>
-                    <p className="text-[10px] font-medium text-gray-400 uppercase tracking-[0.3em] font-jetbrains">Average Velocity</p>
+                    <p className="text-5xl font-bold font-display tracking-tight text-[#e8e8e2]">8 hour</p>
+                    <p className="text-[10px] font-medium text-gray-400 uppercase tracking-[0.3em] font-jetbrains">Fulfillment Time</p>
                   </div>
                 </div>
               </div>
@@ -187,7 +187,7 @@ const App: React.FC = () => {
               <a className="text-[11px] font-semibold text-gray-400 hover:text-brand-orange transition-colors uppercase tracking-widest cursor-pointer font-jetbrains" href="#">Terms</a>
               <a className="text-[11px] font-semibold text-gray-400 hover:text-brand-orange transition-colors uppercase tracking-widest cursor-pointer font-jetbrains" href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact</a>
             </div>
-            <p className="text-[11px] font-semibold text-gray-400 tracking-widest uppercase font-jetbrains">© 2025 GETASAP Distribution Inc.</p>
+            <p className="text-[11px] font-semibold text-gray-400 tracking-widest uppercase font-jetbrains">© 2026 Blaze Market Incorporated.</p>
           </div>
         </div>
       </footer>
