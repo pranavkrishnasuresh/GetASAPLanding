@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>GETASAP | Optimized YC Landing Page</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-orange': '#c76a2a', // Burnished Orange
+              'brand-green': '#5f7f73',  // Sage Green
+              'univ-white': '#fcfcf9',
+              'univ-black': '#191a1a',   // Deep Charcoal
+              'univ-text-dark': '#14343b',
+              'univ-text-light': '#e8e8e2', // Soft Silver
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <style>
+        :root {
+            --brand-orange: #c76a2a;   /* Burnished Orange */
+            --brand-green: #5f7f73;    /* Sage Green */
+            --bg-primary: #fcfcf9;     /* Universal White */
+            --bg-dark: #191a1a;        /* Deep Charcoal */
+            --text-primary: #14343b;   /* Universal Black Text (Deep Teal) */
+            --text-light: #e8e8e2;     /* Soft Silver */
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .font-display {
+            font-family: 'Plus Jakarta Sans', sans-serif !important;
+        }
+
+        .font-jetbrains {
+            font-family: 'JetBrains Mono', monospace !important;
+        }
+
+        .font-serif {
+            font-family: 'Playfair Display', serif !important;
+        }
+
+        .text-brand-orange { color: var(--brand-orange); }
+        .bg-brand-orange { background-color: var(--brand-orange); }
+        .border-brand-orange { border-color: var(--brand-orange); }
+        
+        h1, h2, h3 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: -0.02em;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.31.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="antialiased">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
