@@ -22,7 +22,7 @@ const AIChartModule = ({ isCollapsed }: { isCollapsed: boolean }) => {
       <div className="flex justify-between items-start z-10 relative">
         <div className="min-w-0">
           <motion.h3 layout="position" className="text-white text-lg font-bold font-display tracking-tight mb-1 whitespace-nowrap">
-            AI Demand
+            Demand Intelligence
           </motion.h3>
           <motion.p 
             initial={{ opacity: 1 }}
