@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Console from './components/Console';
 import SupplyChainViz from './components/SupplyChainViz';
 import SolutionsBento from './components/SolutionsBento';
@@ -191,6 +192,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 };
